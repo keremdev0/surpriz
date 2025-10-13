@@ -1,54 +1,22 @@
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Doğum Günün Kutlu Olsun Canım Abim</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    
-    <header class="section intro-section">
-        <div class="container">
-            <h1 id="title">Doğum Günün Kutlu Olsun Canım Abim!</h1>
-            <p class="age-text">24. yaşın hayırlı olsun geri sayım bitince kontrol etmeyı unutma</p>
-<p class="age-text">Siteyi Masaüstü Sitesinde Açmayı Unutma Abi</p>
-            
-            <div id="countdown" class="countdown-timer">
-                <div>
-                    <span id="days">00</span>
-                    <div class="label">Gün</div>
-                </div>
-                <div>
-                    <span id="hours">00</span>
-                    <div class="label">Saat</div>
-                </div>
-                <div>
-                    <span id="minutes">00</span>
-                    <div class="label">Dakika</div>
-                </div>
-                <div>
-                    <span id="seconds">00</span>
-                    <div class="label">Saniye</div>
-                </div>
-            </div>
-            
-            <a href="#gallery-section" class="scroll-down">
-                <i class="arrow down"></i>
-            </a>
-        </div>
-    </header>
-
-    <section class="section message-section">
-        <h2>Sana Mesajım </h2>
-        <p class="message-text">
-            Abi Nice Mutlu Yıllara İnşallah Bu Siteyi Senin İçin Birazcık Yardım Alarak Yaptım Umarım Beğenmişsindir
-        </p>
-    
-    <script src="script.js"></script>
-</body>
-</html>
+          <div id="countik-widget"></div>
+          <script>
+            (function() {
+              var countikWidget = document.createElement('script');
+              countikWidget.src = 'https://countik.com/widget.js';
+              countikWidget.async = true;
+              countikWidget.onload = function() {
+                if (typeof window.initializeCountikWidget === 'function') {
+                  window.initializeCountikWidget({
+                    container: '#countik-widget',
+                    themeColor: '#444444',
+                    uniqueId: 'kerem.unal2',
+                    language: 'tr'
+                  });
+                }
+              };
+              var firstScript = document.getElementsByTagName('script')[0];
+              firstScript.parentNode.insertBefore(countikWidget, firstScript);
+            })();
+          </script>
+          <a href="https://countik.com/tr/user/kerem.unal2" target="_blank" class="pow-countik" style="font-size:11px;color:#333;display:block;padding:4px 3px;text-decoration:none;">Countik™ tarafından desteklenmektedir</a>
+        
