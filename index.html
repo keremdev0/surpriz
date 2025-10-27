@@ -1,22 +1,47 @@
-          <div id="countik-widget"></div>
-          <script>
-            (function() {
-              var countikWidget = document.createElement('script');
-              countikWidget.src = 'https://countik.com/widget.js';
-              countikWidget.async = true;
-              countikWidget.onload = function() {
-                if (typeof window.initializeCountikWidget === 'function') {
-                  window.initializeCountikWidget({
-                    container: '#countik-widget',
-                    themeColor: '#444444',
-                    uniqueId: 'kerem.unal2',
-                    language: 'tr'
-                  });
-                }
-              };
-              var firstScript = document.getElementsByTagName('script')[0];
-              firstScript.parentNode.insertBefore(countikWidget, firstScript);
-            })();
-          </script>
-          <a href="https://countik.com/tr/user/kerem.unal2" target="_blank" class="pow-countik" style="font-size:11px;color:#333;display:block;padding:4px 3px;text-decoration:none;">Countik™ tarafından desteklenmektedir</a>
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dijital Mektup Panosu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="pano-baslik">
+        <h1>Millî Mücadele Kahramanlarına Selam</h1>
+        <p>Sınıfımızın Kahramanlara Yürekten Mektupları</p>
+    </header>
+
+    <main class="mektup-panosu">
+        <div class="mektup-karti" onclick="acMektup('mektup1')">
+            <img src="kahraman_gorseli_1.jpg" alt="Atatürk Görseli" class="kahraman-gorseli">
+            <h2>Gazi Mustafa Kemal Atatürk'e</h2>
+            <p class="ozet">Saygıdeğer Paşam, bu mektubu size minnetle yazıyorum. Sizin önderliğinizde...</p>
+        </div>
+
+        <div class="mektup-karti" onclick="acMektup('mektup2')">
+            <img src="kahraman_gorseli_2.jpg" alt="İsmet İnönü Görseli" class="kahraman-gorseli">
+            <h2>İsmet İnönü Paşa'ya</h2>
+            <p class="ozet">Sevgili Paşam, zorlu savaşlarda gösterdiğiniz azim...</p>
+        </div>
         
+        </main>
+
+    <div id="mektupModal" class="modal">
+        <div class="modal-icerik">
+            <span class="kapat-butonu" onclick="kapatMektup()">&times;</span>
+            <h3 id="modalBaslik">Mektup Başlığı</h3>
+            <p id="modalIcerik">Mektubun tam içeriği buraya gelecek.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+<div class="mektup-karti" onclick="acMektup('mektup3')">
+            <img src="kahraman_gorseli_3.jpg" alt="Sütçü İmam Görseli" class="kahraman-gorseli">
+            <h2>Sütçü İmam Amca'ya</h2>
+            <p class="ozet">Maraş'taki o ilk kıvılcımı yakan...</p>
+        </div>
