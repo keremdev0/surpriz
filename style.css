@@ -66,16 +66,30 @@ body::before {
 }
 
 /* 5. Mektup Kartı Stilleri (Yuvarlak Köşeler Burada!) */
+/* 5. Mektup Kartı Stilleri */
 .mektup-karti {
-		background-color: rgba(255, 255, 255, 0.95); /* Yarı saydam beyaz kart */
-		border: none;
-		border-radius: 20px; /* Köşeleri yuvarla! */
-		box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
-		width: 320px;
-		padding: 25px;
-		text-align: center;
-		cursor: pointer;
-		transition: all 0.3s ease; /* Daha yumuşak geçiş */
+    background-color: rgba(255, 255, 255, 0.95); 
+    border: none;
+    border-radius: 20px; 
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    
+    /* BURAYI DEĞİŞTİRİYORUZ! 320px'ten 300px'e */
+    width: 300px; 
+    
+    padding: 25px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+/* 4. Mektup Kartları Alanı - Burayı da kontrol edelim */
+.mektup-panosu {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 20px; /* Boşluğu da 35px'ten 20px'e indirelim */
+    padding: 40px;
+    flex-grow: 1; 
 }
 
 .mektup-karti:hover {
@@ -187,6 +201,7 @@ body {
     justify-content: center; /* Ortalamayı korur */
     /* ... */
 }
+
 
 
 
