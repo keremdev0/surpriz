@@ -55,14 +55,32 @@ body::before {
 		margin-top: 5px;
 }
 
+body {
+    font-family: 'Poppins', sans-serif; 
+    color: #2c3e50; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    /* BURASI YENİ: Tarayıcı penceresini ortalamak için */
+    align-items: center; 
+    
+    /* Panonun ana içeriğini de ortalayalım */
+    text-align: center; 
+}
+
+/* ... Diğer Kodlar ... */
+
 /* 4. Mektup Kartları Alanı */
 .mektup-panosu {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
-		gap: 35px; /* Kartlar arasındaki boşluğu artır */
-		padding: 40px;
-		flex-grow: 1;
+    /* ... önceki kodlar aynı kalsın ... */
+    max-width: 1000px; /* Panonun çok fazla yayılmasını engeller */
+    width: 90%; /* Orta alanda kalmasını sağlar */
+    display: flex;
+    justify-content: center; /* Ortalamayı korur */
+    /* ... */
 }
 
 /* 5. Mektup Kartı Stilleri (Yuvarlak Köşeler Burada!) */
@@ -201,6 +219,7 @@ body {
     justify-content: center; /* Ortalamayı korur */
     /* ... */
 }
+
 
 
 
