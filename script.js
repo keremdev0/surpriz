@@ -7,9 +7,7 @@ const mektuplar = {
 
         Bugün okulumuzda sizin hakkınızda çok şey öğrendik. Bize bu güzel vatanı armağan ettiğiniz için size ne kadar teşekkür etsek az. O zor günlerde bile umudunuzu hiç kaybetmeyişiniz, bize çok büyük bir ders.
 
-        Özellikle "Benim en büyük eserim Cumhuriyettir" dediğinizde, bunun ne kadar değerli olduğunu anlıyorum. Bize gösterdiğiniz yolda, çok çalışıp başarılı birer öğrenci olmaya söz veriyoruz. Sizin ışığınız hiç sönmeyecek!
-
-        Kerem`,
+        Özellikle "Benim en büyük eserim Cumhuriyettir" dediğinizde, bunun ne kadar değerli olduğunu anlıyorum. Bize gösterdiğiniz yolda, çok çalışıp başarılı birer öğrenci olmaya söz veriyoruz. Sizin ışığınız hiç sönmeyecek!`,
     },
     // Örnek Mektup 2: Halide Edip Adıvar'a
     'mektup2': {
@@ -18,9 +16,7 @@ const mektuplar = {
 
         Sizin o mitinglerdeki konuşmalarınızı hayal edince bile heyecanlanıyorum. Kadınların da bu mücadelede ne kadar güçlü olduğunu gösterdiniz. Sadece kaleminizle değil, yüreğinizle de savaştınız.
 
-        İnsanların cesaretini artırmak için yaptıklarınız, benim için gerçek bir kahramanlık. Sizin gibi güçlü, cesur ve vatanını seven biri olmak istiyorum. Bize bıraktığınız tüm o güzel yazılar için de teşekkürler.
-
-        Kerem`,
+        İnsanların cesaretini artırmak için yaptıklarınız, benim için gerçek bir kahramanlık. Sizin gibi güçlü, cesur ve vatanını seven biri olmak istiyorum. Bize bıraktığınız tüm o güzel yazılar için de teşekkürler.`,
     },
     // Örnek Mektup 3: Sütçü İmam'a
     'mektup3': {
@@ -29,9 +25,7 @@ const mektuplar = {
 
         Maraş'ta yaşananları okuyunca çok duygulandım. O anki cesaretiniz, kimsenin vatanımızın namusuna dokunamayacağını tüm dünyaya gösterdi. Bazen küçük bir kıvılcımın ne kadar büyük bir yangın başlatabileceğini sizden öğrendik.
 
-        Siz, bizim için sadece bir kahraman değil, aynı zamanda haksızlığa karşı nasıl durulacağını gösteren bir örneksiniz. Bu vatan size minnettar.
-
-        Kerem`,
+        Siz, bizim için sadece bir kahraman değil, aynı zamanda haksızlığa karşı nasıl durulacağını gösteren bir örneksiniz. Bu vatan size minnettar.`,
     },
     // Buraya diğer mektuplarını ekleyebilirsin.
 };
@@ -74,5 +68,6 @@ window.onclick = function(event) {
         kapatMektup();
     }
 }
+
 
 
