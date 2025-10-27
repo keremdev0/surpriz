@@ -160,4 +160,31 @@ body::before {
 		text-decoration: none;
 		cursor: pointer;
 }
+body {
+    font-family: 'Poppins', sans-serif; 
+    color: #2c3e50; 
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    /* BURASI YENİ: Tarayıcı penceresini ortalamak için */
+    align-items: center; 
+    
+    /* Panonun ana içeriğini de ortalayalım */
+    text-align: center; 
+}
+
+/* ... Diğer Kodlar ... */
+
+/* 4. Mektup Kartları Alanı */
+.mektup-panosu {
+    /* ... önceki kodlar aynı kalsın ... */
+    max-width: 1000px; /* Panonun çok fazla yayılmasını engeller */
+    width: 90%; /* Orta alanda kalmasını sağlar */
+    display: flex;
+    justify-content: center; /* Ortalamayı korur */
+    /* ... */
+}
 
