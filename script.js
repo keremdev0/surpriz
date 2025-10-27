@@ -9,8 +9,7 @@ const mektuplar = {
 
         Özellikle "Benim en büyük eserim Cumhuriyettir" dediğinizde, bunun ne kadar değerli olduğunu anlıyorum. Bize gösterdiğiniz yolda, çok çalışıp başarılı birer öğrenci olmaya söz veriyoruz. Sizin ışığınız hiç sönmeyecek!
 
-        Saygı ve sevgiyle,
-        [Adın] - [Sınıfın]`,
+        Kerem`,
     },
     // Örnek Mektup 2: Halide Edip Adıvar'a
     'mektup2': {
@@ -21,8 +20,7 @@ const mektuplar = {
 
         İnsanların cesaretini artırmak için yaptıklarınız, benim için gerçek bir kahramanlık. Sizin gibi güçlü, cesur ve vatanını seven biri olmak istiyorum. Bize bıraktığınız tüm o güzel yazılar için de teşekkürler.
 
-        Sevgiyle,
-        [Adın] - [Sınıfın]`,
+        Kerem`,
     },
     // Örnek Mektup 3: Sütçü İmam'a
     'mektup3': {
@@ -33,8 +31,7 @@ const mektuplar = {
 
         Siz, bizim için sadece bir kahraman değil, aynı zamanda haksızlığa karşı nasıl durulacağını gösteren bir örneksiniz. Bu vatan size minnettar.
 
-        Büyük bir saygıyla,
-        [Adın] - [Sınıfın]`,
+        Kerem`,
     },
     // Buraya diğer mektuplarını ekleyebilirsin.
 };
@@ -77,4 +74,5 @@ window.onclick = function(event) {
         kapatMektup();
     }
 }
+
 
